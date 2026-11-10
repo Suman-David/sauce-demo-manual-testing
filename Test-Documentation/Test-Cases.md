@@ -311,8 +311,27 @@
 
 ---
 
+## Module 6: Access Control
+
+### TC_021 – Verify Inventory Access After Logout
+
+**Precondition:** User is logged in and inventory page is accessible.
+
+| Step | Test Action | Expected Result |
+|---|---|---|
+| 1 | Open menu | Menu displayed |
+| 2 | Click Logout | Login page displayed |
+| 3 | Press browser Back | Inventory access denied |
+| 4 | Observe error message | Authentication error displayed |
+
+**Actual Result:** Epic sadface: You can only access '/inventory.html' when you are logged in.
+
+**Status:** Pass
+
+---
+
 ## Test Execution Note
 
-All 20 detailed test cases above are recorded as Passed based on manual execution and tester-reported observations.
+All 21 detailed test cases above are recorded as Passed based on manual execution and tester-reported observations.
 
 The execution results should be supported with screenshots where available. No defects were confirmed during these recorded tests.
